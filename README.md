@@ -15,7 +15,7 @@ CREATE TABLE Claim (
 CREATE TABLE Payment (
     paymentId INT PRIMARY KEY,paymentDate DATE,paymentAmount DECIMAL(10, 2),clientId INT,CONSTRAINT FK_Payment_Client FOREIGN KEY (clientId) REFERENCES Client(clientId));
 
-  ----------------------REFERENCE SCREENSHIOTS----------------------
+  REFERENCE SCREENSHOTS :
 
 1. Creating Policy
 ![image](https://github.com/user-attachments/assets/92ce6626-ff56-4963-9e6e-bfd4c3dff88e)
