@@ -23,14 +23,14 @@ CREATE TABLE Payment (
 ![image](https://github.com/user-attachments/assets/cf69c096-5d80-40d6-a374-b344fb2c9166)
 
 2. Get Policy by ID
-   
-![image](https://github.com/user-attachments/assets/cf9c0a97-72df-4693-a43d-f8f3e3f2d162)
-![image](https://github.com/user-attachments/assets/bd27e33d-22dc-4fd5-be40-d3db3a3f44d3)
+
+![image](https://github.com/user-attachments/assets/358fd9b7-7419-4dae-ad2e-609c94352f73)
+![image](https://github.com/user-attachments/assets/6ad0d2b9-875d-4bd9-b2e1-6c8b435ee4b5)
 
 3. Get All Policies
-   
-![image](https://github.com/user-attachments/assets/8766bc6c-7cd8-40d9-b693-0e0c8c0f7835)
-![image](https://github.com/user-attachments/assets/ebc30b37-a8d1-4736-b2d1-fa58588136d0)
+
+![image](https://github.com/user-attachments/assets/ec07c639-b0b4-4894-bc12-e12620ee5035)
+![image](https://github.com/user-attachments/assets/67bcc0cb-a916-4764-b958-4da42737348c)
 
 4. Updating Policy
    
