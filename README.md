@@ -2,18 +2,18 @@ SQL Schemas
 
 CREATE DATABASE InsuranceManagementSystem; USE InsuranceManagementSystem;
 
-CREATE TABLE Users (userId INT PRIMARY KEY,username VARCHAR(85),password VARCHAR(85),role VARCHAR(20));
+CREATE TABLE Users (userId INT PRIMARY KEY, username VARCHAR(85), password VARCHAR(85), role VARCHAR(20));
 
-CREATE TABLE Policy (policyId INT PRIMARY KEY,policyName VARCHAR(85),premiumAmount DECIMAL(12, 2),coverageAmount DECIMAL(12, 2));
+CREATE TABLE Policy (policyId INT PRIMARY KEY, policyName VARCHAR(85), premiumAmount DECIMAL(12, 2), coverageAmount DECIMAL(12, 2));
 
 CREATE TABLE Client (
-    clientId INT PRIMARY KEY,clientName VARCHAR(120),contactInfo VARCHAR(120),policyId INT);
+    clientId INT PRIMARY KEY, clientName VARCHAR(120), contactInfo VARCHAR(120), policyId INT);
 
 CREATE TABLE Claim (
-    claimId INT PRIMARY KEY,claimNumber VARCHAR(85),dateFiled DATE,claimAmount DECIMAL(12, 2),status VARCHAR(20),policyId VARCHAR(85),clientId INT,CONSTRAINT FK_Claim_Client FOREIGN KEY (clientId) REFERENCES Client(clientId));
+    claimId INT PRIMARY KEY, claimNumber VARCHAR(85), dateFiled DATE, claimAmount DECIMAL(12, 2), status VARCHAR(20), policyId VARCHAR(85), clientId INT, CONSTRAINT FK_Claim_Client FOREIGN KEY (clientId) REFERENCES Client(clientId));
 
 CREATE TABLE Payment (
-    paymentId INT PRIMARY KEY,paymentDate DATE,paymentAmount DECIMAL(10, 2),clientId INT,CONSTRAINT FK_Payment_Client FOREIGN KEY (clientId) REFERENCES Client(clientId));
+    paymentId INT PRIMARY KEY, paymentDate DATE, paymentAmount DECIMAL(10, 2), clientId INT, CONSTRAINT FK_Payment_Client FOREIGN KEY (clientId) REFERENCES Client(clientId));
 
   REFERENCE SCREENSHOTS :
 
