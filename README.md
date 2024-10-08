@@ -33,8 +33,7 @@ CREATE TABLE Payment (
 ![image](https://github.com/user-attachments/assets/ce8e3edb-40a5-457b-846a-1b78cee97576)
 ![image](https://github.com/user-attachments/assets/df71fb4a-94ea-406a-9707-8bd589a8c579)
 
-5. Deleting Policy
-![image](https://github.com/user-attachments/assets/dff59299-60ce-4d02-9061-a643bd399a77)
+5. Deleting Policy![image](https://github.com/user-attachments/assets/dff59299-60ce-4d02-9061-a643bd399a77)
 ![image](https://github.com/user-attachments/assets/4075b992-1e32-42fe-8a5e-4f5e49e31095)
 
 6. Exit
