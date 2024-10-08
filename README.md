@@ -42,7 +42,11 @@ CREATE TABLE Payment (
 ![image](https://github.com/user-attachments/assets/dff59299-60ce-4d02-9061-a643bd399a77)
 ![image](https://github.com/user-attachments/assets/4075b992-1e32-42fe-8a5e-4f5e49e31095)
 
-6. Exit
+6. Policy Not Found Exception
+
+![image](https://github.com/user-attachments/assets/f2c51d94-1673-4259-a0e5-75d43d20b9cd)
+
+7. Exit
     
 ![image](https://github.com/user-attachments/assets/5c4eb1fb-ed31-4dee-bbf1-7fcb12014434)
 
