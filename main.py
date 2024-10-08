@@ -8,7 +8,7 @@ class PolicyManagement :
 
     def menu(self) :
         while True :
-            print("\n===== Policy Management System Menu =====")
+            print("\n===== Insurance Management System Menu =====")
             print("1. Create Policy")
             print("2. Get Policy by ID")
             print("3. Get All Policies")
